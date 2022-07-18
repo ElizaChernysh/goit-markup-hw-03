@@ -1,11 +1,7 @@
 @import './variables.css';
 
-.wrapper-header {
+.header-portfolio{
   border-bottom: 1px solid #ececec;
-}
-
-.header-portfolio {
-  padding: 24px 0;
 }
 
 .header__contacts-info--email:before {
@@ -53,7 +49,7 @@
 }
 
 .cards {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: auto;
   padding-bottom: 64px;
 }
