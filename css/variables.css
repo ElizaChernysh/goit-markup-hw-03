@@ -1,0 +1,9 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --color-main-text: #212121;
+  --color-secondary-text: #757575;
+  --accent: #2196f3;
+  --color-bg-team: #f5f4fa;
+  --color-footers-link: rgba(255, 255, 255, 0.6);
+}
