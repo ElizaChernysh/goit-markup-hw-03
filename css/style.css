@@ -32,7 +32,7 @@ p {
 body {
   background-color: var(--primary-bg-color);
   color: var(--color-main-text);
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

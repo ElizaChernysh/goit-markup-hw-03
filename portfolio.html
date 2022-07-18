@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-      rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous" 
-      referrerpolicy="no-referrer" 
-    />
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
     <title>Document</title>
@@ -36,16 +35,10 @@
         </nav>
 
         <div class="header__contacts">
-          <a 
-            class="header__contacts-info header__contacts-info--email" 
-            href="mailto:info@devstudio.com"
-          >
+          <a class="header__contacts-info header__contacts-info--email" href="mailto:info@devstudio.com">
             info@devstudio.com
           </a>
-          <a 
-            class="header__contacts-info header__contacts-info--phone" 
-            href="tel:+380961111111"
-          >
+          <a class="header__contacts-info header__contacts-info--phone" href="tel:+380961111111">
             +38 096 111 11 11
           </a>
         </div>
@@ -63,84 +56,69 @@
       <section class="cards">
         <ul class="cards__list">
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-1.jpg" 
-              alt="Робота для Технокряк" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Технокряк</h3>
-            <p class="cards__info">Веб-сайт</p>
+            <img src="images/portfolio/image-1.jpg" alt="Робота для Технокряк" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Технокряк</h3>
+              <p class="cards__info">Веб-сайт</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-2.jpg" 
-              alt="Приклад постеру, двоє чоловіків грають в баскетбол" class="cards__image"
-            >
-            <h3 class="cards__title">Постер New Orlean vs Golden Star</h3>
-            <p class="cards__info">Дизайн</p>
+            <img src="images/portfolio/image-2.jpg" alt="Приклад постеру, двоє чоловіків грають в баскетбол"
+              class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Постер New Orlean vs Golden Star</h3>
+              <p class="cards__info">Дизайн</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-3.jpg" 
-              alt="Дизайнерське рішення для додатку" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Ресторан Seafood</h3>
-            <p class="cards__info">Додаток</p>
+            <img src="images/portfolio/image-3.jpg" alt="Дизайнерське рішення для додатку" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Ресторан Seafood</h3>
+              <p class="cards__info">Додаток</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-4.jpg" 
-              alt="Зображення наушників" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Проєкт Prime</h3>
-            <p class="cards__info">Маркетинг</p>
+            <img src="images/portfolio/image-4.jpg" alt="Зображення наушників" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Проєкт Prime</h3>
+              <p class="cards__info">Маркетинг</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-5.jpg" 
-              alt="Зображення коробок для проекту" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Проєкт Boxes</h3>
-            <p class="cards__info">Додаток</p>
+            <img src="images/portfolio/image-5.jpg" alt="Зображення коробок для проекту" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Проєкт Boxes</h3>
+              <p class="cards__info">Додаток</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-6.jpg" 
-              alt="Зображення створеного веб-сайту" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Inspiration has no Borders</h3>
-            <p class="cards__info">Веб-сайт</p>
+            <img src="images/portfolio/image-6.jpg" alt="Зображення створеного веб-сайту" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Inspiration has no Borders</h3>
+              <p class="cards__info">Веб-сайт</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-7.jpg" 
-              alt="Приклад дизайну для видання" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Видання Limited Edition</h3>
-            <p class="cards__info">Дизайн</p>
+            <img src="images/portfolio/image-7.jpg" alt="Приклад дизайну для видання" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Видання Limited Edition</h3>
+              <p class="cards__info">Дизайн</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-8.jpg" 
-              alt="Зображення дизайнерського рішення для бірки" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Проект LAB</h3>
-            <p class="cards__info">Маркетинг</p>
+            <img src="images/portfolio/image-8.jpg" alt="Зображення дизайнерського рішення для бірки"
+              class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Проект LAB</h3>
+              <p class="cards__info">Маркетинг</p>
+            </div>
           </li>
           <li class="cards__item">
-            <img 
-              src="images/portfolio/image-9.jpg" 
-              alt="Зображення прикладу додатку" 
-              class="cards__image"
-            >
-            <h3 class="cards__title">Growing Business</h3>
-            <p class="cards__info">Додаток</p>
+            <img src="images/portfolio/image-9.jpg" alt="Зображення прикладу додатку" class="cards__image">
+            <div class="cards-wrapper">
+              <h3 class="cards__title">Growing Business</h3>
+              <p class="cards__info">Додаток</p>
+            </div>
           </li>
         </ul>
       </section>

@@ -62,9 +62,14 @@
 
 .cards__item {
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
-
   transition: 0.3s;
+}
+
+.cards-wrapper {
+  margin-top: -8px;
+  border: 1px solid #eeeeee;
+  padding-top: 20px;
+  border-top: none;
 }
 
 .cards__item:hover {
@@ -73,10 +78,11 @@
 
 .cards__image {
   width: 370px;
-  margin-bottom: 20px;
+  height: 294px;
 }
 
 .cards__title {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
